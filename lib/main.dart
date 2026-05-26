@@ -1,4 +1,6 @@
+import 'package:fasum_nelson/screens/home_screen.dart';
 import 'package:fasum_nelson/screens/sign_in_screen.dart';
+import 'package:fasum_nelson/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -21,7 +23,7 @@ class MainApp extends StatelessWidget {
       title: 'Fasum Nelson',
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
       useMaterial3: true),
-      home: SignInScreen(),
+      home: SplashScreens(),
     );
   }
 }
